@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css?family=Playfair+Display&display=swap');
+
+@font-face{
+    font-family: PlayfairDisplay-Black;
+    src: url("C:/Users/Ave/Desktop/Important_shit/Learning/Materiały do nauki/Frontend/udemy_web_design_course/fonts/PlayfairDisplay-Black.ttf");
+}
+@font-face{
+    font-family: PlayfairDisplay-Italic;
+    src: url("C:/Users/Ave/Desktop/Important_shit/Learning/Materiały do nauki/Frontend/udemy_web_design_course/fonts/PlayfairDisplay-Italic.ttf");
+}
+@font-face{
+    font-family: PlayfairDisplay-Regular;
+    src: url("C:/Users/Ave/Desktop/Important_shit/Learning/Materiały do nauki/Frontend/udemy_web_design_course/fonts/PlayfairDisplay-Regular.ttf");
+}
+
+h1,h2,h3,h4,h5{
+    font-family: 'PlayfairDisplay-Black', sans-serif;
+    margin-top: 50px;
+    margin-bottom: 20px;
+    width: 100%;
+}
+h3{
+    color: #592902;
+}
+p, li, a, span{
+    font-family: "PlayfairDisplay-Regular", sans-serif;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 100%;
+}
