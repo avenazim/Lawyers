@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Lawyers Page</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/fonts.css">
+    <link rel="stylesheet" href="css/custom.css">
+    <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <header>
+        <a onclick="scrollToTopPage()"><img src="img/logo.jpg" alt="logo" class="logo"></a>
+        <nav>
+            <a class="hide-desktop" onclick="showMenu()">
+                <img src="img/ham.png" alt="toggle menu" class="menu" id="menu">
+            </a>
+            <ul class="show-desktop hide-mobile" id="nav">
+                <li id="exit" class="exit-btn hide-desktop"><a onclick="hideMenu()"><i class="fa fa-times exit" aria-hidden="true"></i></a></li>
+                <li><a onclick="scrollToTopPage()">Home</a></li>
+                <li><a onclick="scrollToService()">Services</a></li>
+                <li><a onclick="scrollToAbout()">About us</a></li>
+                <li><a onclick="scrollToContact()">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <div class="header text-center">
+        <h1 class="padding-top-20vh text-uppercase">If there were no bad people, there would be no good lawyers</h1>
+        <p class="padding-top-50">Discourage litigation. Persuade your neighbor to compromise whenever you can. As a peacemaker the lawyer has a superior opportunity of being a good man. There will still be business enough.</p>
+        <a onclick="scrollToService()"><img id="scroll" src="img/scroll.png" alt="scroll"></a>
+    </div>
+    <div class="services-box padding-top-50" id="services-box">
+        <div class="container">
+            <h3>Services</h3>
+            <p>We offer a wide spectrum of law services. Here are few examples:</p>
+            <div class="row">
+                <div class="col-md-4 col-sm-12">
+                    <img src="img/icon_1.png" alt="icon-1">
+                </div>
+                <div class="col-md-4 col-sm-12">
+                    <img src="img/icon_2.png" alt="icon-2">
+                </div>
+                <div class="col-md-4 col-sm-12">
+                    <img src="img/icon_3.png" alt="icon-3">
+                </div>
+            </div>
+            <p class="text-center">Contact us to get to know more!</p>
+            <a class="text-center"><button id="learn-btn">Lear more</button></a>
+        </div>
+    </div>
+    <div class="about-box padding-top-50 padding-bottom-80" id="about-box">
+        <div class="container">
+            <h3 class="text-left">About us</h3>
+            <p class="text-left">Our company was originally registered in 2002 and placed in Szczecin. There were 3 creators: Emilie Smith, Eleonore Mayers and John Stinson. Since creating "LAW SUITS AVENAZIM" we grow in strengh and gained more customors than when we were working independent. We are proud to have over one milion happy customers.</p>
+            <div class="row">
+                <div class="col-md-4 col-sm-12">
+                    <div class="hover-img">
+                        <img src="img/lawyer_1.jpeg" alt="lawyer-1">
+                        <div class="img-overlay">
+                            <h5 class="img-desc">Emilie</h5>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-12">
+                    <div class="hover-img">
+                        <img src="img/lawyer_2.jpeg" alt="lawyer-2">
+                        <div class="img-overlay">
+                            <h5 class="img-desc">Eleonore</h5>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-12">
+                    <div class="hover-img">
+                        <img src="img/lawyer_3.jpeg" alt="lawyer-3">
+                        <div class="img-overlay">
+                            <h5 class="img-desc">John</h5>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <div class="ft-contact padding-top-20 padding-bottom-80">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6 col-sm-12">
+                        <h4>Contact us</h4>
+                        <p>Emilie Smith <span>123-456-789</span></p>
+                        <p>Eleonore Mayers <span>123-456-789</span></p>
+                        <p>John Stinson <span>123-456-789</span></p>
+                    </div>
+                    <div class="col-md-6 col-sm-12">
+                        <h4>Visit us</h4>
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d258047.8496272325!2d-0.10271149210103711!3d51.46600825771182!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x33ebb7d4784242c!2sNEG%20LEGAL%20AND%20ADVOCATES!5e0!3m2!1sen!2spl!4v1577969167863!5m2!1sen!2spl" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="ft-copyright text-center">
+            <div class="container">
+                <div class="row">
+                    <p>Copyright 2020 LAWYER SUITS AVENAZIM - All Rights Reserved</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="js/index.js"></script>
+   
+</body>
+</html>
